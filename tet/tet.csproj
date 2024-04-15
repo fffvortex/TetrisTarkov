@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\background.png" />
+    <None Remove="Assets\backgroundGame.png" />
+    <None Remove="Assets\BlockEmpty.png" />
+    <None Remove="Assets\EmptyTiles.png" />
+    <None Remove="Assets\IBlock.png" />
+    <None Remove="Assets\ITales.png" />
+    <None Remove="Assets\JBlock.png" />
+    <None Remove="Assets\JTales.png" />
+    <None Remove="Assets\LBlock.png" />
+    <None Remove="Assets\LTales.png" />
+    <None Remove="Assets\OBlock2var.png" />
+    <None Remove="Assets\OTales.png" />
+    <None Remove="Assets\SBlock.png" />
+    <None Remove="Assets\STales.png" />
+    <None Remove="Assets\TBlock.png" />
+    <None Remove="Assets\TTales.png" />
+    <None Remove="Assets\ZBlock.png" />
+    <None Remove="Assets\ZTales.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\background.png" />
+    <Resource Include="Assets\backgroundGame.png" />
+    <Resource Include="Assets\BlockEmpty.png" />
+    <Resource Include="Assets\EmptyTiles.png" />
+    <Resource Include="Assets\IBlock.png" />
+    <Resource Include="Assets\ITales.png" />
+    <Resource Include="Assets\JBlock.png" />
+    <Resource Include="Assets\JTales.png" />
+    <Resource Include="Assets\LBlock.png" />
+    <Resource Include="Assets\LTales.png" />
+    <Resource Include="Assets\OBlock2var.png" />
+    <Resource Include="Assets\OTales.png" />
+    <Resource Include="Assets\SBlock.png" />
+    <Resource Include="Assets\STales.png" />
+    <Resource Include="Assets\TBlock.png" />
+    <Resource Include="Assets\TTales.png" />
+    <Resource Include="Assets\ZBlock.png" />
+    <Resource Include="Assets\ZTales.png" />
+  </ItemGroup>
+
+</Project>
